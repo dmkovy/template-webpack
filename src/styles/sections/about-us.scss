@@ -1,0 +1,23 @@
+.about-us {
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__wrap {
+    max-width: 580px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 38px;
+  }
+
+  &__text {
+    color: $LightGray;
+    margin-bottom: 40px;
+  }
+}
