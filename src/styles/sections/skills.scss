@@ -1,0 +1,76 @@
+.skills {
+  height: 570px;
+  width: 100%;
+
+  &__wrap {
+    width: 100%;
+    height: 570px;
+    display: flex;
+  }
+
+  &__left,
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+  }
+
+  &__box {
+    width: 500px;
+    margin-bottom: 55px;
+  }
+
+  &__title {
+    margin-bottom: 55px;
+    font-size: 30px;
+  }
+
+  &__label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  &__line {
+    width: 10%;
+    height: 4px;
+    background: $accent;
+    border-radius: 4px;
+    position: relative;
+    background: $accent;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 500px;
+      height: 4px;
+      background: #ccc;
+      z-index: -1;
+    }
+
+
+    &_ready {
+      width: 100%;
+      transition: .2s;
+    }
+  }
+
+  &__right {
+    background: url('../img/bg/macbook_progress.jpg') center center no-repeat;
+    background-size: cover;
+    background-position-y: 50px;
+    opacity: 0;
+
+    &_top {
+      transition: .7s all;
+      background-position-y: 0px;
+      opacity: 1;
+    }
+  }
+
+}
