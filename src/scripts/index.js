@@ -1,11 +1,14 @@
 import '../styles/index.scss';
-import scrollbar from './scrollbar';
+
+import progressBar from './progressBar';
 import scrollbarAnimation from './scrollbarAnimation';
 
 window.onload = () => {
   window.onscroll = function() {
     if (window.scrollY > 300) {
-      scrollbar();
+      // progress bar
+      progressBar();
+
       scrollbarAnimation();
       window.scrollY = null;
     }

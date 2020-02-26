@@ -41,6 +41,7 @@
     border-radius: 4px;
     position: relative;
     background: $accent;
+    transition: 1s all;
 
     &:after {
       content: '';
