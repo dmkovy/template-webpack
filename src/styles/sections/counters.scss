@@ -1,0 +1,43 @@
+.counters {
+  height: 240px;
+  width: 100%;
+  background: $accent;
+  display: flex;
+  align-items: center;
+
+  &__wrap {
+    display: flex;
+  }
+
+  &__list,
+  &__item {
+    display: flex;
+    color: #fff;
+  }
+
+  &__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    padding-right: 30px;
+  }
+
+  &__number {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__percent {}
+
+  &__title {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+
+}
