@@ -1,7 +1,8 @@
-import "../styles/index.scss";
+import '../styles/index.scss';
 
-import progressBar from "./progressBar";
-import scrollbarAnimation from "./scrollbarAnimation";
+import progressBar from './progressBar';
+import scrollbarAnimation from './scrollbarAnimation';
+import './magnific-popup/index';
 
 window.onload = () => {
   window.onscroll = function() {
@@ -15,4 +16,4 @@ window.onload = () => {
   };
 };
 
-console.log("webpack starterkit");
+console.log('webpack starterkit');

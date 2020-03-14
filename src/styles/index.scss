@@ -1,5 +1,6 @@
 @import './fonts/fonts';
 @import './common/index';
+@import './lib/magnific-popup.css';
 @import './sections/index';
 
 
@@ -10,4 +11,9 @@ body {
 
 .h1 {
   color: $accent;
+}
+
+.imgg {
+  width: 300px;
+  height: 250px;
 }
