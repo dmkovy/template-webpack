@@ -1,0 +1,38 @@
+.testimonials {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  background: $accent;
+  position: relative;
+  color: #fff;
+
+  &-carousel {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+
+    &__text {
+      font-size: 24px;
+      margin-bottom: 35px;
+      line-height: 40px;
+    }
+
+    &__name {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 100px;
+    }
+  }
+
+  .slick-dots li button:before {
+    color: #fff !important;
+    opacity: 0.6;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #fff !important;
+    opacity: 1;
+    font-size: 10px;
+  }
+}

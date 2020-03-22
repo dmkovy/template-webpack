@@ -3,6 +3,7 @@ import '../styles/index.scss';
 import progressBar from './progressBar';
 import scrollbarAnimation from './scrollbarAnimation';
 import './magnific-popup/index';
+import './lib/slick';
 
 window.onload = () => {
   window.onscroll = function() {
