@@ -4,6 +4,9 @@
 @import './lib/magnific-popup.css';
 @import './sections/index';
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: $primary;
