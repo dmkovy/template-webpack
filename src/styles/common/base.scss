@@ -19,3 +19,22 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+
+#scrollTop {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  font-size: 40px;
+  z-index: 9999;
+  color: #10c9c3;
+  cursor: pointer;
+}
+
+.isShowBtn {
+  opacity: 1;
+  transition: .4s;
+
+  &_hide {
+    opacity: 0;
+  }
+}
