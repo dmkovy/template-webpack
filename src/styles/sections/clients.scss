@@ -1,0 +1,26 @@
+.clients {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  box-sizing: border-box;
+
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    transition: .2s all;
+    opacity: .6;
+    padding-top: 3px;
+
+    &:hover {
+      opacity: 1;
+      padding-top: 0;
+    }
+  }
+}

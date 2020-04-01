@@ -1,0 +1,71 @@
+.forms {
+  display: flex;
+  justify-content: center;
+  background: $greyBg;
+  width: 100%;
+  padding: 100px 0;
+  box-sizing: border-box;
+
+  input:placeholder {
+    font-size: 15px;
+    color: $grey2;
+  }
+
+  &__wrap {
+    max-width: 670px;
+    text-align: center;
+  }
+
+  &__header,
+  &__h2 {
+    margin-bottom: 40px;
+  }
+
+  &__header {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    color: $grey2;
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  &__input,
+  &__textarea {
+    border: 0;
+    padding: 18px 20px;
+    outline: none;
+    font-size: 15px;
+    color: $grey2;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+
+  &__section1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name,
+  &__email {
+    width: 320px;
+  }
+
+  &__title,
+  &__textarea {
+    width: 100%;
+  }
+
+  &__submit {
+    border: 0;
+    background: $accent;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
